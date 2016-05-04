@@ -1,4 +1,4 @@
 <?php
-    echo "app1 text;
+    echo "app1 text";
     echo "\n";
 ?>
