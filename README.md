@@ -1,1 +1,1 @@
-Sample php application
+Sample php application for testing
