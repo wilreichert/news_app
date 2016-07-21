@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: news
-        image: wilreichert/news:latest
+        image: monkey.goathorde.org:5000/news:latest
         ports:
         - containerPort: 80
