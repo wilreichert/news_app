@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: news
+  labels:
+    name: news
+spec:
+  type: LoadBalancer
+  selector:
+    name: news
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+      protocol: TCP
